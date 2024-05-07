@@ -1,4 +1,6 @@
-# Connections Result Fixer <!-- omit from toc -->
+# Connections Results Fixer <!-- omit from toc -->
+
+![logo](https://github.com/scheiber/connections-results-fixer/assets/794551/ae7accda-a55c-4b3f-a812-6d48523cb4d5)
 
 ## Table of Contents <!-- omit from toc -->
 
@@ -8,7 +10,7 @@
 
 ## About
 
-[Connections Result Fixer](https://scheiber.github.io/connections-results-fixer/)
+[Connections Results Fixer](https://scheiber.github.io/connections-results-fixer/)
 allows you to copy your results from [Connections](https://www.nytimes.com/games/connections) and have two spaces automatically added to the end of each line, making the lines appear "stacked" when sharing on platforms that use [Markdown](https://www.markdownguide.org/), such as [Reddit](https://www.reddit.com/r/NYTConnections/).
 
 To use this tool, copy your results from Connections as you normally would, paste them into the box, and click "Fix It!"
