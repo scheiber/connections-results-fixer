@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connections Results Fixer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body>
+    <img src="/images/icon.png" class="icon" alt="Connections Results Fixer icon" />
+    <h2 class="header">Connections Results Fixer</h2>
+    <div class="about">
+        <p>This site allows you to copy your results from <a
+                href="https://www.nytimes.com/games/connections">Connections</a>
+            and have two spaces automatically added to the end of each line, making the lines appears "stacked" when
+            sharing to platforms that use <a href="https://www.markdownguide.org/">Markdown</a>, such as <a
+                href="https://www.reddit.com/r/NYTConnections/">Reddit</a>.</p>
+        <p>To use this tool, copy your results from Connections as you normally would, paste them into the box below,
+            and click "Fix It!"</p>
+        <p>The fixed results will be
+            automatically copied to your clipboard, ready to share.</p>
+    </div>
+    <textarea id="inputText" rows="8" cols="30"></textarea><br>
+    <button onclick="fixConnections()">Fix It!</button><br>
+    <div id="outputMessage"></div>
+
+    <script src="script.js"></script>
+
+    <div class="footer">
+        <p>Created by <a href="https://scheiber.dev/">Jonathan Scheiber</a>.<br />
+            <a href="https://github.com/scheiber/connections-results-fixer">Source available</a> under the <a
+                href="https://github.com/scheiber/connections-results-fixer/blob/main/LICENSE.TXT">the MIT
+                License.</a><br />
+            This site is not affiliated in any way with The New York Times.</p>
+    </div>
+</body>
+
+</html>
