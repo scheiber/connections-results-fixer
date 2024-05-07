@@ -1,6 +1,66 @@
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #fff;
+  }
+
+  p {
+    color: #ccc;
+  }
+
+  a {
+    color: #eee;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+  textarea {
+    background-color: #333;
+    color: #fff;
+  }
+  button {
+    background-color: #444;
+    color: #fff;
+  }
+  button:hover {
+    background-color: #666;
+  }
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #e7c2fd;
+    color: #333;
+  }
+
+  p {
+    color: #333;
+  }
+
+  a {
+    color: #430bd0;
+  }
+
+  a:hover {
+    color: #000;
+  }
+  textarea {
+    background-color: #d99dff;
+    color: #333;
+  }
+  button {
+    background-color: #6f00ff;
+    color: #fff;
+  }
+  button:hover {
+    background-color: #44008d;
+  }
+}
+
 body {
-  background-color: #222;
-  color: #fff;
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
@@ -14,14 +74,6 @@ p,
 #outputMessage {
   margin-top: 10px;
   font-size: 20px;
-}
-
-a {
-  color: #eee;
-}
-
-a:hover {
-  color: #fff;
 }
 
 .about,
@@ -39,8 +91,6 @@ a:hover {
 }
 
 textarea {
-  background-color: #333;
-  color: #fff;
   border: 1px solid #444;
   margin: 10px;
   resize: none;
@@ -50,20 +100,10 @@ textarea {
 }
 
 button {
-  background-color: #444;
-  color: #fff;
   border: none;
   padding: 8px 16px;
   cursor: pointer;
   font-size: 20px;
-}
-
-button:hover {
-  background-color: #666;
-}
-
-p {
-  color: #ccc;
 }
 
 .icon {
@@ -116,7 +156,8 @@ p {
   .header {
     font-size: 35px;
   }
-  .about {
+  .about,
+  .footer {
     margin-left: 0%;
     margin-right: 0%;
   }
