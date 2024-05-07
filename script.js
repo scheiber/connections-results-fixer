@@ -11,10 +11,15 @@ const fixConnections = () => {
     "Success! The fixed result has been copied to your clipboard.";
 };
 
+const resetPage = () => {
+  document.getElementById("inputText").value = ""; // Clear the textarea
+  document.getElementById("outputMessage").textContent = ""; // Clear the output message
+};
+
 const addSpacesToLineBreaks = (input) => {
   let lines = input.split("\n");
   for (let i = 0; i < lines.length; i++) {
-    if (i === 0) {
+    if (i === 0 && lines[i].endsWith(" ")) {
       lines[i] += " ";
     } else {
       lines[i] += "  ";
