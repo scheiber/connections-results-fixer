@@ -8,7 +8,7 @@ const fixConnections = () => {
   let output = addSpacesToLineBreaks(input);
   copyToClipboard(output);
   document.getElementById("outputMessage").textContent =
-    "The fixed result has been copied to your clipboard!";
+    "Success! The fixed result has been copied to your clipboard.";
 };
 
 const addSpacesToLineBreaks = (input) => {
