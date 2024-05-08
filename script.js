@@ -9,11 +9,14 @@ const fixConnections = () => {
   copyToClipboard(output);
   document.getElementById("outputMessage").textContent =
     "Success! The fixed result has been copied to your clipboard.";
+  resetFixer();
 };
 
-const resetPage = () => {
-  document.getElementById("inputText").value = ""; // Clear the textarea
-  document.getElementById("outputMessage").textContent = ""; // Clear the output message
+const resetFixer = () => {
+  document.getElementById("inputText").value = "";
+  setTimeout(() => {
+    document.getElementById("outputMessage").textContent = "";
+  }, 5000);
 };
 
 const addSpacesToLineBreaks = (input) => {
