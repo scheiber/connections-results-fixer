@@ -20,7 +20,10 @@ The fixed results will be automatically copied to your clipboard, ready to share
 ## Technical Details
 
 - This project was created using plain JavaScript, HTML, and CSS.
+- [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) is used to dynamically switch between light and dark themes based on the user's operating system level setting.
+- Although this tool was specifically designed for use with Connections, it is also compatible with other NYT games that share results, such as [Strands](https://www.nytimes.com/games/strands) and [Wordle](https://www.nytimes.com/games/wordle), due to the result format being similar.
 
 ## Disclaimers
+
 - The site has been released under the [MIT License](https://github.com/scheiber/connections-results-fixer/blob/main/LICENSE.TXT).
 - This site is not affiliated in any way with The New York Times.
