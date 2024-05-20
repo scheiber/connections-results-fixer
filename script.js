@@ -21,6 +21,7 @@ const resetFixer = () => {
 
 const addSpacesToLineBreaks = (input) => {
   let lines = input.split("\n");
+  lines = lines.filter((line) => line.trim() !== "");
   for (let i = 0; i < lines.length; i++) {
     if (i === 0 && lines[i].endsWith(" ")) {
       lines[i] += " ";
