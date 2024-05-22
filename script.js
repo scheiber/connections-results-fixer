@@ -1,3 +1,12 @@
+document
+  .getElementById("inputText")
+  .addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      fixConnections();
+    }
+  });
+
 const fixConnections = () => {
   let input = document.getElementById("inputText").value.trim();
   if (input === "") {
