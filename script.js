@@ -19,7 +19,7 @@ const fixResults = () => {
   let output = addSpacesToLineBreaks(input);
   copyToClipboard(output);
   outputMessageElement.textContent =
-    "Success! The fixed result has been copied to your clipboard.";
+    "Success!\r\n The fixed result has been copied to your clipboard.";
   resetFixer();
 };
 
