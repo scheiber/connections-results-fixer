@@ -29,7 +29,7 @@
 /* Light mode styles */
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #e7c2fd;
+    background-color: #efd6fd;
     color: #333;
   }
   p {
@@ -42,11 +42,11 @@
     color: #000;
   }
   textarea {
-    background-color: #d99dff;
+    background-color: #e1b1ff;
     color: #333;
   }
   button {
-    background-color: #6f00ff;
+    background-color: #8f41f5;
     color: #fff;
   }
   button:hover {
